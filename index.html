@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tempt Your Fortune</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        color: white;
+        background-color: black;
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      .instructions {
+        border: 3px solid white;
+        border-radius: 50px;
+        padding: 10px;
+      }
+
+      h3 {
+        margin: 0 0 5px 0;
+      }
+
+      canvas {
+        background: #000000;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br>
+    <canvas id="myCanvas" width="620" height="520" style="border: 10px solid #FFFFFF;"></canvas>
+    <br><br>
+    <div class="instructions">
+      <h3>Goal:</h3>
+      Win "Mondo Money" by stopping the "Substantial Screen" on large values but make sure to avoid the "Whompers" - they'll cash your check and leave you with nothing!<br><br>
+      <h3>Controls:</h3>
+      Space: Stop the screen when in motion OR resume the screen for next spin<br>
+      "w"/"q": Add/Subtract a Whomper<br>
+      "s"/"a": Add/Subtract a Spin<br>
+      "m": Manually adjust current money of the player<br>
+      (View the source code on <a href="https://github.com/matthewniznik/tempt-your-fortune-js">GitHub</a>)
+  </body>
+
+  <script type="text/javascript" src="tempt-your-fortune.js"></script>
+</html>
