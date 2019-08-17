@@ -241,7 +241,7 @@ function getPrizeName() {
       'Cruise to ',
       'Train through ',
       'Tour of ',
-      'Girls Trip:',
+      'Girls Trip: ',
       'Casino in ',
       'Hiking through ',
       'Camping in ',
